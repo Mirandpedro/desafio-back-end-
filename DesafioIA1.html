@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Pesquisa</title>
+    <link rel="stylesheet" href="DesafioIA1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário de Pesquisa</h1>
+        <form id="surveyForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" required>
+
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" required>
+
+            <label for="education">Escolaridade:</label>
+            <input type="text" id="education" required>
+
+            <label for="city">Cidade:</label>
+            <input type="text" id="city" required>
+
+            <label for="gender">Sexo:</label>
+            <select id="gender" required>
+                <option value="M">Masculino</option>
+                <option value="F">Feminino</option>
+            </select>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="thankYouMessage" class="hidden"></div>
+    </div>
+    <script src="DesafioIA1.js"></script>
+</body>
+</html>
+
+
